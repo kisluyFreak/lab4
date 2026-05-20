@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница 1 - Путешествия</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f8ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .nav-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .nav-link:hover {
+            background-color: #2980b9;
+        }
+        .image-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .img-bordered {
+            border: 5px solid #e74c3c;
+            padding: 5px;
+        }
+        .text-left {
+            float: left;
+            margin-right: 20px;
+        }
+        .text-right {
+            float: right;
+            margin-left: 20px;
+        }
+        .clear {
+            clear: both;
+        }
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .image-row img {
+            flex: 1;
+            min-width: 150px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .formatted-text {
+            text-indent: 30px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .highlight {
+            background-color: #ffff00;
+            padding: 2px 5px;
+        }
+        .important {
+            font-weight: bold;
+            color: #c0392b;
+        }
+        .emphasis {
+            font-style: italic;
+            color: #27ae60;
+        }
+        .small-text {
+            font-size: 12px;
+        }
+        .large-text {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Мир Путешествий</h1>
+        
+        <a href="page2.html" class="nav-link">➡️ Перейти на Страницу 2 - Природа</a>
+        
+        <div class="image-section">
+            <h2>Горные пейзажи</h2>
+            <img src="img1.jpg" alt="Величественные горы с заснеженными вершинами" class="img-bordered" width="400" height="300">
+            <p class="text-left formatted-text">
+                <span class="large-text"><strong>Горы</strong></span> — это одно из самых <span class="highlight">захватывающих</span> зрелищ в природе. 
+                Они возвышаются над землей, словно гигантские стражи времени. 
+                <em class="emphasis">Каждая вершина хранит свою уникальную историю.</em>
+            </p>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="image-section">
+            <h2>Океанские просторы</h2>
+            <p class="text-right formatted-text">
+                <span class="important">Океан</span> занимает более <span class="highlight">70%</span> поверхности нашей планеты.
+                Его глубины скрывают множество <strong>тайн и чудес</strong>.
+                <br><br>
+                <span class="small-text">Волны океана создают успокаивающую мелодию природы.</span>
+            </p>
+            <img src="img2.jpg" alt="Бескрайний океан с волнами и голубым небом" width="50%" height="250">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="image-section">
+            <h2>Галерея путешествий</h2>
+            <p>Изображения ниже демонстрируют разное поведение при изменении ширины страницы:</p>
+            <div class="image-row">
+                <img src="img3.jpg" alt="Лесная тропинка среди высоких деревьев">
+                <img src="img4.jpg" alt="Цветущее поле подсолнухов">
+                <img src="img5.jpg" alt="Древний замок на холме">
+                <img src="img6.jpg" alt="Северное сияние в ночном небе">
+            </div>
+            <p class="small-text"><em>Попробуйте изменить размер окна браузера, чтобы увидеть, как изображения адаптируются.</em></p>
+        </div>
+        
+        <div class="image-section">
+            <h2>Популярные направления</h2>
+            <ul>
+                <li><strong>Европа</strong> — Париж, Рим, Барселона</li>
+                <li><strong>Азия</strong> — Токио, Бангкок, Дубай</li>
+                <li><strong>Америка</strong> — Нью-Йорк, Лос-Анджелес, Рио-де-Жанейро</li>
+                <li><strong>Африка</strong> — Каир, Кейптаун, Марракеш</li>
+                <li><strong>Австралия</strong> — Сидней, Мельбурн, Большой Барьерный риф</li>
+            </ul>
+        </div>
+        
+        <div class="image-section">
+            <p class="formatted-text">
+                <span style="text-decoration: underline;">Путешествия</span> расширяют наш кругозор и позволяют <span style="text-decoration: overline;">открыть</span> для себя что-то новое.
+                <br>
+                <span style="text-decoration: line-through;">Старые стереотипы</span> разрушаются, когда мы видим мир своими глазами.
+            </p>
+        </div>
+        
+        <a href="page2.html" class="nav-link">➡️ Перейти на Страницу 2 - Природа</a>
+    </div>
+</body>
+</html>
